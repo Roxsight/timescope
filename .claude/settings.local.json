@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sqlite3 timescope.db \"SELECT id, app_name, window_title, timestamp FROM app_logs ORDER BY id DESC LIMIT 20;\")",
+      "Bash(python -c ' *)",
+      "Bash(python *)",
+      "Bash(curl -s \"http://localhost:8080/api/usage?date=2026-04-17\")",
+      "Bash(netstat -ano)",
+      "Bash(tasklist)",
+      "Bash(curl -s \"http://localhost:5173\")",
+      "Bash(curl -s \"http://localhost:5173/\")",
+      "Bash(mvn --version)",
+      "Bash(java -version)",
+      "Bash(cmd /c \"taskkill /PID 5216 /F && echo KILLED\")"
+    ]
+  }
+}

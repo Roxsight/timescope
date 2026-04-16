@@ -16,7 +16,7 @@ const SERVICES = {
   backend: {
     name: "Spring Boot Backend",
     port: 8080,
-    cmd: "mvn",
+    cmd: "mvnw.cmd",
     args: ["spring-boot:run"],
     cwd: path.join(ROOT, "backend"),
     color: "#6366f1",

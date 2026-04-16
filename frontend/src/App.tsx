@@ -37,7 +37,9 @@ function fmt(min) {
   return `${h}h ${m}m`
 }
 
-function toDs(d) { return d.toISOString().split("T")[0] }
+function toDs(d) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`
+}
 function isToday(d) { return d.toDateString() === new Date().toDateString() }
 function fmtLabel(d) {
   return isToday(d) ? "Today" : d.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" })
