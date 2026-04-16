@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(xargs grep:*)",
+      "Read(//c/Users/abhin/Desktop/projects/Timescope/backend/**)",
+      "Bash(mvn spring-boot:run)",
+      "Bash(echo \"PID: $!\")"
+    ]
+  }
+}

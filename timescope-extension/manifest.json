@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "TimeScope Tracker",
+  "version": "1.0",
+  "description": "Tracks browser tab activity and sends it to TimeScope.",
+
+  "permissions": [
+    "tabs",
+    "alarms",
+    "storage",
+    "idle"
+  ],
+
+  "host_permissions": [
+    "http://localhost:8080/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "icons": {
+    "16":  "icon.png",
+    "48":  "icon.png",
+    "128": "icon.png"
+  }
+}
