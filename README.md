@@ -47,7 +47,7 @@ npm run dev
 ```bash
 cd logger
 pip install requests psutil pywin32
-python logger.py
+python main.py
 ```
 
 **4. Ollama**
