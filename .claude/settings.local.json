@@ -11,7 +11,15 @@
       "Bash(curl -s \"http://localhost:5173/\")",
       "Bash(mvn --version)",
       "Bash(java -version)",
-      "Bash(cmd /c \"taskkill /PID 5216 /F && echo KILLED\")"
+      "Bash(cmd /c \"taskkill /PID 5216 /F && echo KILLED\")",
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(gunzip -c \"C:/Users/abhin/.claude/projects/C--Users-abhin-Desktop-Testing-Timescope--claude-worktrees-friendly-kepler-fec6d0/c9b278ba-611a-40b4-bd6d-8bce87458a3a/tool-results/webfetch-1776544245985-0j2lz8.bin\")",
+      "Read(//tmp/**)",
+      "Bash(tar -x --to-stdout timescope/project/TimeScope.html)",
+      "Bash(npx tsc *)",
+      "Bash(node_modules/.bin/tsc --noEmit)",
+      "Bash(npm install *)",
+      "Bash(./node_modules/.bin/tsc --noEmit)"
     ]
   }
 }
