@@ -19,7 +19,9 @@
       "Bash(npx tsc *)",
       "Bash(node_modules/.bin/tsc --noEmit)",
       "Bash(npm install *)",
-      "Bash(./node_modules/.bin/tsc --noEmit)"
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(cmd /c \"cd C:\\\\Users\\\\abhin\\\\Desktop\\\\Testing\\\\Timescope\\\\frontend && node_modules\\\\.bin\\\\tsc --noEmit 2>&1\")",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\abhin\\\\Desktop\\\\Testing\\\\Timescope\\\\frontend && node_modules\\\\.bin\\\\tsc --noEmit\")"
     ]
   }
 }
